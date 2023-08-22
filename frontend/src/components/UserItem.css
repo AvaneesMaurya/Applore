@@ -1,0 +1,44 @@
+/* Add these styles to your existing CSS */
+
+.user-row {
+  display: flex;
+  justify-content: space-between; /* Align username to left, buttons to right */
+  align-items: center;
+}
+
+.username {
+  text-align: left; /* Align username to left */
+}
+
+.buttons {
+  text-align: right; /* Align buttons to right */
+}
+
+.edit-button,
+.delete-button {
+  margin-left: 10px;
+}
+/* Add these styles to your existing CSS */
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  margin-right: 10px; /* Add space between input and button */
+}
+
+.input-container button {
+  margin-left: auto; /* Push the button to the right */
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-new-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}

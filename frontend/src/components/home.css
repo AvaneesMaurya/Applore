@@ -1,0 +1,61 @@
+.blogs-header {
+  text-align: center;
+  margin-bottom: 5px; /* Add some space below the header */
+}
+
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.center-section {
+  flex: 2;
+  padding: 20px;
+}
+
+.blog-item h3 {
+  margin-top: 0;
+}
+
+.edit-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.blog-buttons button {
+  margin-right: 5px;
+}
+
+.no-blogs {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Adjust image and section styles as needed */
+.left-section img,
+.right-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
